@@ -1,0 +1,75 @@
+[
+    {
+        "group": "Brazilian Portuguese",
+        "names": [ "Vitoria", "Ricardo" ]
+    }, {
+        "group": "Canadian French",
+        "names": [ "Chantal" ]
+    }, {
+        "group": "Castilian Spanish",
+        "names": [ "Enrique", "Conchita" ]
+    }, {
+        "group": "Danish",
+        "names": [ "Naja", "Mads" ]
+    }, {
+        "group": "Dutch",
+        "names": [ "Ruben", "Lotte" ]
+    }, {
+        "group": "English (Australian)",
+        "names": [ "Russell", "Nicole" ]
+    }, {
+        "group": "English (British)",
+        "names": [ "Emma", "Brian", "Amy" ]
+    }, {
+        "group": "English (Indian)",
+        "names": [ "Raveena" ]
+    }, {
+        "group": "English (US)",
+        "names": [ "Joanna", "Salli", "Kimberly", "Kendra", "Justin", "Joey", "Ivy" ]
+    }, {
+        "group": "English (Welsh)",
+        "names": [ "Geraint" ]
+    }, {
+        "group": "French",
+        "names": [ "Mathieu", "Celine" ]
+    }, {
+        "group": "German",
+        "names": [ "Marlene", "Hans" ]
+    }, {
+        "group": "Icelandic",
+        "names": [ "Karl", "Dora" ]
+    }, {
+        "group": "Italian",
+        "names": [ "Giorgio", "Carla" ]
+    }, {
+        "group": "Japanese",
+        "names": [ "Mizuki" ]
+    }, {
+        "group": "Norwegian",
+        "names": [ "Liv" ]
+    }, {
+        "group": "Polish",
+        "names": [ "Maja", "Jan", "Ewa", "Jacek" ]
+    }, {
+        "group": "Portuguese",
+        "names": [ "Ines", "Cristiano" ]
+    }, {
+        "group": "Romanian",
+        "names": [ "Carmen" ]
+    }, {
+        "group": "Russian",
+        "names": [ "Maxim", "Tatyana" ]
+    }, {
+        "group": "Swedish",
+        "names": [ "Astrid" ]
+    }, {
+        "group": "Turkish",
+        "names": [ "Filiz" ]
+    }, {
+        "group": "US Spanish",
+        "names": [ "Penelope", "Miguel" ]
+    }, {
+        "group": "Welsh",
+        "names": [ "Gwyneth" ]
+    }
+]

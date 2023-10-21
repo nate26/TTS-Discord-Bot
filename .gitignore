@@ -1,0 +1,7 @@
+# Dependency directories
+node_modules/
+dist/
+
+# Discord keys
+src/configs/config.json
+src/configs/config_testing.json
