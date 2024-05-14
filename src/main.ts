@@ -3,7 +3,10 @@ import { VoiceController } from './voice/voice-controller';
 import { JoinCommand } from './commands/join';
 import { LeaveCommand } from './commands/leave';
 import { HelpCommand } from './commands/help';
-import { VoiceCommand } from './commands/voice';
+import { VoicesCommand } from './commands/voices';
+import { SetupCommand } from './commands/setup';
+import { UsersCommand } from './commands/users';
+import { RemoveCommand } from './commands/remove';
 
 let { token, mikeID } = require('./configs/config.json');
 // let { token } = require('./configs/config.json');
@@ -27,7 +30,10 @@ const registeredCommands = [
 	new JoinCommand(voiceController),
 	new LeaveCommand(voiceController),
 	new HelpCommand(),
-	new VoiceCommand(users)
+	new SetupCommand(users),
+	new RemoveCommand(users),
+	new UsersCommand(users),
+	new VoicesCommand()
 ];
 
 

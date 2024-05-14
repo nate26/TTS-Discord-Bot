@@ -10,7 +10,11 @@ export class HelpCommand implements BotCommand {
         .setColor(0x3FC400)
         .addFields([
             { name: '.join', value: 'Joins the vc of the current user' },
-            { name: '.leave', value: 'Leaves the vc' }
+            { name: '.leave', value: 'Leaves the vc' },
+            { name: '.setup', value: 'Setup yourself for the bot' },
+            { name: '.remove', value: 'Remove yourself or a provided user using their @user' },
+            { name: '.users', value: 'Displays the current registered users for TTS' },
+            { name: '.voices', value: 'Displays all the possible voices' }
         ])
         .setTimestamp();    
         message.channel.send({ embeds: [embedBuilder] });
