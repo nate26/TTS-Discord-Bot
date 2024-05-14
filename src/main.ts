@@ -32,7 +32,7 @@ const registeredCommands = [
 	new HelpCommand(),
 	new SetupCommand(users),
 	new RemoveCommand(users),
-	new UsersCommand(users),
+	new UsersCommand(users, client),
 	new VoicesCommand()
 ];
 
@@ -68,10 +68,10 @@ client.on("messageCreate", async (message: Message) => {
     if (message.author.bot) return;
     if (message.channel.type === ChannelType.DM) return;
 	
-	console.log(`Message from ${message.author.username}: ${message.content}`);
+	// console.log(`Message from ${message.author.username}: ${message.content}`);
 
 	for (let command of registeredCommands) {
-		if (message.content == command.command) {
+		if (message.content == command.command || message.content.startsWith(command.command + ' ')) {
 			command.action(message);
 		}
 	}
